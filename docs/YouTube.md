@@ -29,7 +29,7 @@ vget hack youtube in few ways, it may emulate embedded video links, or emulate b
 Main extract function is  extract() it call for booth extract using embedded url and extract using browser url.  
 
   *  extractLinks()
-    * streamCpature()
+    * streamCapture()
     * extractEmbedded()
 
 It is simple. We ask YouTube to generate our html in two different ways. Somethims embedded links allows you to watch country restreicted videos, or age restricted vidoes. So it is good to have booth calls.
