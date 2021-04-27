@@ -38,7 +38,7 @@ Then we parse html using extractHtmlInfo() and inside it extractUrlEncodedVideos
 
  extractHtmlInfo() - extract encrypted urls hidden in youtube html page.
 
-extractUrlEncodedVideos() converts buggly encrupted URLS to proper download urls, which will be transfered dirrectly to wget library. Ususally this method fails. Last time, for example youtube added "sig=" url parameter instead of "signature=".
+extractUrlEncodedVideos() converts buggly encrupted URLS to proper download urls, which will be transfered directly to wget library. Ususally this method fails. Last time, for example youtube added "sig=" url parameter instead of "signature=".
 
 # Hacking
 
